@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pokedex.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <script src="/Users/usuario/Desktop/script.js" type="text/javascript" defer></script>
+    
+    <title>Pokedex</title>
+</head>
+<body>
+<div class="pokedex">
+    <div class="columna-izq">
+        <div class="detalles">
+            <div class="detalles-circulo"></div>
+            <div class="detalles-rojo , detalles-circulos"></div>
+            <div class="detalles-amarillo , detalles-circulos"></div>
+            <div class="detalles-verde , detalles-circulos"></div>
+        </div>
+        <div class="columna-izq-screenborder">
+            <div class="columna-izq-screen">
+                <ul class="screen-list">
+                    <div data-poke-card class="poke-card">
+                        <div data-poke-name></div>
+                        <div data-poke-img-container class="img-container">
+                            <img data-poke-img class="poke-img" src="./poke-shadow.png"/>
+                        </div>
+                        
+                </ul>
+                
+                
+            </div>
+        </div>
+    </div>
+    <div class="columna-der">
+        <form action="" onsubmit="searchPokemon(event)">
+            <input type="text" name="pokemon" autocomplete="off">
+        </form>
+        <ul class="screen-list2">
+                    <div data-poke-id></div>
+                     <div data-poke-types class="poke-types"></div>
+                     <div data-poke-stats class="poke-stats"></div>
+                   
+                </ul>
+    </div>
+</div>
+
+</body>
+</html>
